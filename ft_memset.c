@@ -4,7 +4,7 @@
 
     if(!b)
         return (NULL);
-    str = b;
+    str = (unsigned char *)b;
     while (len != 0)
     {
         *str = (unsigned char)c;
